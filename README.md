@@ -1,1 +1,1 @@
-# Earthquake data project
+# Earthquake Data Project
