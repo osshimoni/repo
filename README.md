@@ -1,1 +1,1 @@
-# repo
+# Earthquake data project
