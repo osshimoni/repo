@@ -212,7 +212,6 @@ def learn(option):
 
 
 def main():
-    st.footer("Created by Osher Shimoni")
     st.sidebar.title("USA Earthquake Data")
     st.sidebar.subheader("Sept. 30th to Nov. 23rd, 2020")
 
@@ -224,6 +223,7 @@ def main():
         st.title("Home")
         st.subheader("USA Earthquakes Map")
         st.map(df)  # Homepage is USA earthquakes map
+        st.write("Created by Osher Shimoni")
     # User chose display earthquake highest mag
     if option == "Earthquakes by Region":
         displayEarthquakesByRegion(option)
