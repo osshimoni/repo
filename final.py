@@ -223,7 +223,7 @@ def main():
         st.title("Home")
         st.subheader("USA Earthquakes Map")
         st.map(df)  # Homepage is USA earthquakes map
-        st.write("This application was created by by Osher Shimoni")
+        st.write("Application by Osher Shimoni")
     # User chose display earthquake highest mag
     if option == "Earthquakes by Region":
         displayEarthquakesByRegion(option)
