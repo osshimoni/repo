@@ -212,9 +212,9 @@ def learn(option):
 
 
 def main():
+    st.write("Created by Osher Shimoni")
     st.sidebar.title("USA Earthquake Data")
     st.sidebar.subheader("Sept. 30th to Nov. 23rd, 2020")
-    st.sidebar.subheader("Created by Osher Shimoni")
 
     # User chooses what they want to do
     option = st.sidebar.selectbox("Select an Option", (
