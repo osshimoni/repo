@@ -212,7 +212,7 @@ def learn(option):
 
 
 def main():
-    st.write("Created by Osher Shimoni")
+    st.sidebar.write("Created by Osher Shimoni")
     st.sidebar.title("USA Earthquake Data")
     st.sidebar.subheader("Sept. 30th to Nov. 23rd, 2020")
 
