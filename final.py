@@ -11,7 +11,7 @@ import streamlit as st
 
 filename = "earthquakes.csv"
 df = pd.read_csv("earthquakes.csv")
-mag = df["mag"]  # Subsets the query keeping only the magnitude column
+mag = df["mag"]  # Subsets the df keeping only the magnitude column
 
 
 # Converts input to float
